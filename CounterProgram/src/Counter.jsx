@@ -19,8 +19,8 @@ function Counter(){
     const textReader= (event) => {
         setChangeNum (event.target.value);
 
-        /*if (!isNaN(value)){
-            setChangeNum(value);
+        /*if (isNaN(textReader)){
+            setChangeNum(textReader);
         }
         else{
             setChangeNum(1);
