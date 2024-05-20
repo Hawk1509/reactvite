@@ -6,9 +6,6 @@ function AccessReportPage() {
     const location = useLocation();
     const {id, name} = location.state || {};
 
-
-
-
     return (
         <div className="App">
             <h1>You Have Entered {name}</h1>
